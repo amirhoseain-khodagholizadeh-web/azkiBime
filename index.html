@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="stylesheet/output.css">
+</head>
+
+<body dir="rtl">
+    <main class="pt-10">
+        <header
+            class=" z-50 bg-gray-50 border border-gray-200 fixed w-full top-0 left-0 flex justify-center px-[4%]  lg:px-[11%] py-4">
+            <div class="lg:container flex  w-full justify-between">
+                <a href="">
+                    <figure class=" flex gap-1.5 w-1/2 lg:w-fit">
+                        <img class="w-[32px] h-[32px]]" src="img/azki-side-logo.webp" alt="">
+                        <img class="w-[55px]" src="img/azki-logo-simple.svg" alt="">
+                    </figure>
+                </a>
+                <nav class=" pr-6  hidden lg:flex lg:flex-1">
+                    <ul
+                        class=" hidden px-3 lg:flex lg:w-[100%] **:text-mainBlack  **:text-[15px] gap-7 *:flex *:items-center">
+                        <li><a class="flex items-center gap-1" href="">بیمه ها<span
+                                    class="icon-[ep--arrow-down]"></span></a></li>
+                        <li><a class="flex items-center gap-1" href="">خسارت ها<span
+                                    class="icon-[ep--arrow-down]"></span></a></li>
+                        <li><a class="" href="">اقساط و اعتبار ها</a></li>
+                        <li><a class="" href="">شرکت های بیمه</a></li>
+                        <li><a class="" href="">فروشنده شوید</a></li>
+                    </ul>
+                </nav>
+                <div class="flex items-center w-1/2 lg:w-fit justify-end gap-0.5">
+                    <a class="flex items-center   lg:text-mainBlue" href=""> <span
+                            class="icon-[bx--support] text-[24px] text-mainGray lg:text-mainBlue"></span></a>
+                    <a class="text-[16px] text-mainGray lg:text-mainBlue" href="">پشتیبانی</a>
+                </div>
+            </div>
+        </header>
+        <!-- header -->
+        <section
+            class="fixed_header bg-white lg:hidden **:text-mainGray z-50 fixed bottom-0 left-0 border border-gray-200 w-full">
+            <nav>
+                <ul class="flex  py-1.5  justify-evenly px-4">
+                    <li><a class="flex flex-wrap justify-center" href=""><span
+                                class="icon-[material-symbols--home-outline-rounded] text-[24px] flex"></span><span
+                                class="flex w-full justify-center text-[13px]">خانه</span></a>
+                    </li>
+                    <li><a class="flex flex-wrap justify-center" href=""><span
+                                class="icon-[mynaui--folder-two] text-[24px] flex justify-center"></span><span
+                                class="flex w-full justify-center text-[13px]">بیمه های من</span></a>
+                    </li>
+                    <li><a class="flex flex-wrap justify-center" href=""><span
+                                class="icon-[solar--card-linear] text-[24px] flex"></span><span
+                                class="flex w-full justify-center text-[13px]">اقساط و اعتبار</span></a>
+                    </li>
+                    <li><a class="flex flex-wrap justify-center" href=""><span
+                                class="icon-[akar-icons--person] text-[24px] flex"></span><span
+                                class="flex w-full justify-center text-[13px]">ورود ثبت نام</span></a>
+                    </li>
+                    <li><a class="flex flex-wrap justify-center" href=""><span
+                                class="icon-[basil--other-1-solid] text-[24px] flex"></span><span
+                                class="flex w-full justify-center text-[13px]">سایر</span></a></li>
+                </ul>
+            </nav>
+        </section>
+        <!-- fixed header -->
+        <section class="body  pb-16">
+            <div
+                class="px-[4%]   lg:px-[6%] bg-[url(../img/homepage_hero_2x.webp)] min-h-[100vh] bg-no-repeat bg-cover">
+                <div class="lg:container mx-auto ">
+                    <div class=" flex flex-wrap justify-between  pt-4 xl:pt-24">
+
+                        <div class="w-full xl:w-1/3 order-2 xl:order-1">
+                            <div
+                                class=" flex border lg:border-none border-gray-400 rounded-tl-3xl  rounded-tr-3xl  bg-gray-50 pt-3 justify-between *:py-1 *:w-1/3   *:flex *:flex-wrap *:justify-center">
+                                <a class="border-l border-gray-300" href="">
+                                    <figure class="flex justify-center w-[50px] relative ">
+                                        <img class="w-[50px] absolute xl:top-[-360%] top-[-260%]" src="img/azki.webp"
+                                            alt="">
+                                    </figure>
+                                    <p class="w-full text-center pt-5 text-[15px] mb-[-10px] py-2">بیمه</p>
+                                    <p class="hidden text-mainGray xl:flex text-[11px]">مقایسه و خرید آنلاین</p>
+                                </a>
+                                <a href="">
+                                    <figure class="flex justify-center w-[32px]">
+                                        <img class="w-[32px]" src="img/azkivam.webp" alt="">
+                                    </figure>
+                                    <p class="w-full text-center text-[13px] py-2">کالا و خدمات </p>
+                                    <p class="hidden text-mainGray  xl:flex text-[11px]">اقساطی،بدون ضامن</p>
+                                </a>
+                                <a href="" class="border-r border-gray-300 ">
+                                    <figure class="flex justify-center w-[32px]">
+                                        <img class="w-[32px]" src="img/azkisarmayeh.webp" alt="">
+                                    </figure>
+                                    <p class="w-full text-center text-[13px] py-2">‌گذاری گذاری</p>
+                                    <p class="hidden text-mainGray  xl:flex text-[11px]">آسان و سریع</p>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- ///////////////// -->
+                        <div class=" xl:w-1/2 w-full order-1 xl:order-2 xl:py-0 py-15 flex">
+                            <a href=""
+                                class="flex items-center justify-between w-[90%] sm:w-[70%] xl:w-[90%] rounded-2xl p-2 mx-auto xl:bg-[#ffffff00] bg-[#E5F4FF]">
+                                <div>
+                                    <h3 class="font-vazirtam text-mainBlue">تاریخ سررسید بیمه <br>ماشینت گذشته؟</h3>
+                                    <span class="text-[12px] bg-yellow-400 py-0.5 px-2.5 rounded-[6px]">تمدید بدون
+                                        جریمه</span>
+                                </div>
+                                <figure class="flex justify-end">
+                                    <img class="w-[70%] mt-[-30px]" src="img/Forgiveness_1_Day_Desktop_7633ffc633.webp"
+                                        alt="">
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-gray-50 xl:rounded-tl-3xl rounded-bl-3xl rounded-br-3xl shadow-2xl p-12 flex gap-y-7 justify-between xl:justify-between flex-wrap">
+                        <div
+                            class="order-1 w-full xl:w-[45%] flex flex-wrap gap-3 *:w-full *:text-center *:xl:text-right">
+                            <h2 class="text-2xl font-vazirtam">ازکی؛ مقایسه و خرید آنلاین بیمه
+                            </h2>
+                            <p class="text-mainGray">بیمه‌ مورد نظرت رو انتخاب کن!
+
+                            </p>
+                        </div>
+                        <div class="w-full order-8 lg:order-2 xl:w-[45%]">
+                            <div
+                                class="flex items-center **:text-mainGray  w-full border border-gray-400 p-3 rounded-2xl">
+                                <span class="icon-[quill--search] text-[25px]"></span>
+                                <span class="">بیمه مورد نظر را جستجو کنید ...</span>
+                            </div>
+                        </div>
+                        <div
+                            class="relative w-full xl:w-[37%] order-2 lg:order-3 shadow-2xl   bg-gray-50 p-4 rounded-[15px]">
+                            <a href="" class="flex flex-wrap  gap-2">
+                                <div class="flex w-full gap-3 items-center">
+                                    <figure>
+                                        <img src="img/third-on.svg" alt="">
+                                    </figure>
+                                    <div class="*:flex *:w-full flex flex-wrap gap-1">
+                                        <span class="text-[14px]">بیمه شخص ثالث خودرو</span>
+                                        <span class="text-[12px] text-mainGray">سواری،وانت،کامیون و ... </span>
+                                    </div>
+                                </div>
+                                <div class="w-full">
+                                    <p class="bg-[#E5F4FF]  rounded-[10px] px-4 py-2 text-[13px] text-mainBlue">اگه تا
+                                        ساعت 21 سفارش بدی،بیمه نامه
+                                        امروز صادر میشه</p>
+                                </div>
+                                <p
+                                    class="text-[12px] absolute top-[-5%] py-1 px-3 rounded-3xl left-0 w-fit flex bg-mainBlue text-gray-50">
+                                    اعتباری،بدون پیش پرداخت</p>
+                            </a>
+                        </div>
+                        <div
+                            class="relative w-full xl:w-[37%] order-3 lg:order-4 shadow-2xl   bg-gray-50 p-4 rounded-[15px]">
+                            <a href="" class="flex flex-wrap  gap-2">
+                                <div class="flex w-full gap-3 items-center">
+                                    <figure>
+                                        <img src="img/New folder/body-on.svg" alt="">
+                                    </figure>
+                                    <div class="*:flex *:w-full flex flex-wrap gap-1">
+                                        <span class="text-[14px]">بیمه بدنه خودرو</span>
+                                        <span class="text-[12px] text-mainGray">سواری و وانت </span>
+                                    </div>
+                                </div>
+                                <div class="w-full">
+                                    <p class="bg-[#E5F4FF]  rounded-[10px] px-4 py-2 text-[13px] text-mainBlue">اگه تا
+                                        ساعت 21 سفارش بدی،بیمه نامه
+                                        امروز صادر میشه</p>
+                                </div>
+                                <p
+                                    class="text-[12px] absolute top-[-5%]  py-1 px-3 rounded-3xl left-0 w-fit flex bg-mainBlue text-gray-50">
+                                    اعتباری،بدون پیش پرداخت</p>
+                            </a>
+                        </div>
+                        <div
+                            class="relative order-4 xl:w-[20%] lg:order-5 shadow-2xl w-[48%]  bg-gray-50 py-7 px-2 rounded-[15px]">
+                            <a href="" class="flex flex-wrap  gap-2">
+                                <div class="flex w-full xl:flex-wrap xl:*:w-full gap-3 items-center">
+                                    <figure class="xl:flex xl:justify-center">
+                                        <img src="img/New folder/motorcycle-on.svg" alt="">
+                                    </figure>
+                                    <div class="*:flex *:w-full flex flex-wrap gap-1  xl:*:justify-center">
+                                        <span class="text-[14px]  xl:text-[16px]">بیمه موتور</span>
+                                        <span class="text-[12px] text-mainGray">تک سیلندر ،دوسیلندر و ...</span>
+                                    </div>
+                                </div>
+
+                            </a>
+                        </div>
+                        <div
+                            class="relative order-5  lg:order-6 shadow-2xl w-[48%] xl:w-[18%]  bg-gray-50 py-7 px-2 rounded-[15px]">
+                            <a href="" class="flex flex-wrap  gap-2">
+                                <div class="flex w-full gap-3 items-center xl:flex-wrap xl:*:w-full">
+                                    <figure class="xl:flex xl:justify-center"></figure>
+                                    <img class="w-[56px] h-[56px]" src="img/New folder/house-on.svg" alt="">
+                                    </figure>
+                                    <div class="*:flex *:w-full flex flex-wrap gap-1 xl:*:justify-center">
+                                        <span class="text-[14px]  xl:text-[16px]">بیمه خانه</span>
+                                        <span class="text-[12px] text-mainGray">آتش سوزی ،زلزله وآسانسور <span>
+                                    </div>
+                                </div>
+
+                            </a>
+                        </div>
+                        <div
+                            class="relative order-5  lg:order-6 shadow-2xl w-[48%] xl:w-[18%]  bg-gray-50 py-7 px-2 rounded-[15px]">
+                            <a href="" class="flex flex-wrap  gap-2">
+                                <div class="flex w-full gap-3 items-center xl:*:w-full xl:flex-wrap">
+                                    <figure class="xl:flex xl:justify-center">
+                                        <img src="img/New folder/health-on.svg" alt="">
+                                    </figure>
+                                    <div class="*:flex *:w-full flex flex-wrap gap-1 xl:*:justify-center">
+                                        <span class="text-[14px]  xl:text-[16px]">بیمه تکمیلی</span>
+                                        <span class="text-[12px] text-mainGray">انفرادی،خانوادگی و شرکتی</span>
+                                    </div>
+                                </div>
+
+                                <p
+                                    class="text-[12px] absolute top-[-5%]  py-1 px-3 rounded-3xl left-0 w-fit flex bg-mainBlue text-gray-50">
+                                    اقساطی</p>
+                            </a>
+                        </div>
+                        <div
+                            class="relative order-5  lg:order-6 shadow-2xl w-[48%] xl:w-[18%]  bg-gray-50 py-7 px-2 rounded-[15px]">
+                            <a href="" class="flex flex-wrap  gap-2">
+                                <div class="flex w-full gap-3 items-center xl:*:w-full xl:flex-wrap">
+                                    <figure class="xl:flex xl:justify-center">
+                                        <img src="img/New folder/life-on.svg" alt="">
+                                    </figure>
+                                    <div class="*:flex *:w-full flex flex-wrap gap-1 xl:*:justify-center">
+                                        <span class="text-[14px]  xl:text-[16px]">بیمه عمر</span>
+                                        <span class="text-[12px] text-mainGray">عمر و ‌گذاری گذاری <span>
+                                    </div>
+                                </div>
+
+                                <p
+                                    class="text-[12px] absolute top-[-5%]  py-1 px-3 rounded-3xl left-0 w-fit flex bg-mainBlue text-gray-50">
+                                    اقساطی</p>
+                            </a>
+                        </div>
+                        <div
+                            class="relative order-6 lg:order-7 shadow-2xl w-[48%] xl:w-[18%]  bg-gray-50 py-7 px-2 rounded-[15px]">
+                            <a href="" class="flex flex-wrap  gap-2">
+                                <div class="flex w-full gap-3 items-center xl:*:w-full xl:flex-wrap">
+                                    <figure class="xl:flex xl:justify-center">
+                                        <img src="img/New folder/mobile-on.svg" alt="">
+                                    </figure>
+                                    <div class="*:flex *:w-full flex flex-wrap gap-1 xl:*:justify-center">
+                                        <span class="text-[14px]  xl:text-[16px]">بیمه موبایل</span>
+                                        <span class="text-[12px] text-mainGray">سرقت و آسیب دیدگی</span>
+                                    </div>
+                                </div>
+
+                                <p
+                                    class="text-[12px] absolute top-[-5%]  py-1 px-3 rounded-3xl left-0 w-fit flex bg-mainBlue text-gray-50">
+                                    80درصد تخفیف</p>
+                            </a>
+                        </div>
+                        <div
+                            class="relative order-7 lg:order-8 shadow-2xl w-[48%] xl:w-[18%]  bg-gray-50 py-7 px-2 rounded-[15px]">
+                            <a href="" class="flex flex-wrap  gap-2">
+                                <div class="flex w-full gap-3 items-center xl:*:w-full xl:flex-wrap">
+                                    <figure class="xl:flex xl:justify-center">
+                                        <img src="img/New folder/travel-on.svg" alt="">
+                                    </figure>
+                                    <div class="*:flex *:w-full flex flex-wrap gap-1  xl:*:justify-center">
+                                        <span class="text-[14px] xl:text-[16px]"> بیمه مسافرتی</span>
+                                        <span class="text-[12px] text-mainGray">داخلی ،خارجی و زائرین</span>
+                                    </div>
+                                </div>
+
+                                <p
+                                    class="text-[12px] absolute top-[-5%]  py-1 px-3 rounded-3xl left-0 w-fit flex bg-mainBlue text-gray-50">
+                                    صدور آنی</p>
+                            </a>
+                        </div>
+                        <div class="flex order-9 my-5 lg:order-9 justify-center w-full">
+                            <p class="bg-mainBlue text-gray-50 text-[14px] rounded-[5px] px-4 py-2">نمایش همه بیمه ها
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ///////////////// -->
+            <div class="px-[4%] lg:px-[6%] py-12 lg:py-16">
+                <div class="container mx-auto flex justify-center">
+                    <a href="" class="flex w-[70%] sm:w-[60%]">
+                        <figure class="w-full">
+                            <img class="w-full lg:hidden rounded-2xl"
+                                src="img/New folder/Esfand_Banner_Mobile_2a32786fd1.webp" alt="">
+                            <img class="w-full hidden lg:flex rounded-2xl"
+                                src="img/New folder/Esfand_Banner_Desktop_bb4108ba3d.webp" alt="">
+                        </figure>
+                    </a>
+                </div>
+            </div>
+            <!-- ///////////////////////// -->
+            <div class="px-[4%] lg:px-[6%] py-12 lg:py-16">
+                <div class="container mx-auto flex flex-wrap justify-center gap-10">
+                    <h2 class="text-center py-7 text-2xl sm:text-4xl font-vazirtam w-full">خرید آنلاین بیمه بدون نگرانی
+                    </h2>
+                    <div
+                        class="relative max-w-[700px] border border-gray-300 gap-3  rounded-3xl py-5 px-5 sm:px-7 sm:py-14  flex *:w-full  flex-wrap">
+                        <figure class="flex justify-center sm:w-[30%]">
+                            <img class="w-[30%] sm:w-[80%]" src="img/New folder/online-insurance.svg" alt="">
+                        </figure>
+                        <div class="flex flex-wrap sm:gap-6 gap-3 sm:w-[67%]">
+                            <h4 class="font-vazirtam">چرا بیمه رو آنلاین بخرم؟
+                            </h4>
+                            <p class="text-mainGray text-justify">«خدمات آنلاین» متنوع، سریع و امن هستن. برای خرید
+                                بهترین بیمه از «ازکی» می‌تونی در یک نگاه
+                                تمام شرکت‌های بیمه رو با هم مقایسه کنی و بعد از انتخاب گزینه مناسب، بدون درگیری با مراحل
+                                اداری صدور، بیمه‌نامه معتبر خودت‌ رو‌‌ در محل موردنظر دریافت کنی.</p>
+                        </div>
+                        <figure class="absolute right-[-15%] bottom-[-50%] hidden lg:flex">
+                            <img src="img/New folder/arrow.svg" alt="">
+                        </figure>
+                    </div>
+                    <div
+                        class="max-w-[700px] relative border border-gray-300 gap-3  rounded-3xl py-5 px-5 sm:px-7 sm:py-14  flex *:w-full  flex-wrap">
+                        <figure class="flex justify-center sm:w-[30%] sm:order-2">
+                            <img class="w-[30%] sm:w-[80%]" src="img/New folder/easy-buying.svg" alt="">
+                        </figure>
+                        <div class="flex flex-wrap sm:gap-6 gap-3 sm:w-[67%] sm:order-1">
+                            <h4 class="font-vazirtam">خرید آنلاین بیمه، سخته یا آسون؟
+
+                            </h4>
+                            <p class="text-mainGray text-justify">استفاده از وب‌سایت «ازکی» آسونه! چون هدفمون ساده کردن
+                                مراحل سنتی و پیچیده‌ی بیمه‌ست. ما سعی کردیم با طراحی وب‌سایتی کاربرمَدار و روان، فرآیند
+                                خرید بیمه رو شفاف کنیم؛ فقط کافیه با انتخاب نوع بیمه مورد نیازت شروع کنی و قدم به قدم
+                                مسیر رو ادامه بدی
+                                <figure class=" ">
+                                    <img class="absolute  scale-x-[-1] left-[-15%] bottom-[-50%] hidden lg:flex "
+                                        src="img/New folder/arrow (1).svg" alt="">
+                                </figure>
+                        </div>
+                    </div>
+                    <div
+                        class="max-w-[700px] relative border border-gray-300 gap-3  rounded-3xl py-5 px-5 sm:px-7 sm:py-14  flex *:w-full  flex-wrap">
+                        <figure class="flex justify-center sm:w-[30%]">
+                            <img class="w-[30%] sm:w-[80%]" src="img/New folder/wrong-info.svg" alt="">
+                        </figure>
+                        <div class="flex flex-wrap sm:gap-6 gap-3 sm:w-[67%]">
+                            <h4 class="font-vazirtam">اگه اطلاعاتم رو اشتباه وارد کنم چی میشه؟
+                            </h4>
+                            <p class="text-mainGray text-justify">کارشناسان «ازکی» قبل از صدور بیمه‌نامه، اطلاعات
+                                موردنیاز رو در سامانه‌های رسمی استعلام می‌گیرند تا از صحت اون‌ها مطمئن بشن و اگر به
+                                اشتباه یا عدم تطابق اطلاعات بر بخورن، حتما باهات تماس می‌گیرن تا برای صدور بیمه‌نامه
+                                اصلاحات لازم رو انجام بدن. پس اصلاً نگران نباش!
+                            </p>
+                        </div>
+                        <figure class="absolute right-[-15%] bottom-[-50%] hidden lg:flex">
+                            <img src="img/New folder/arrow.svg" alt="">
+                        </figure>
+                    </div>
+                    <div
+                        class="max-w-[700px] border border-gray-300 gap-3  rounded-3xl py-5 px-5 sm:px-7 sm:py-14  flex *:w-full  flex-wrap">
+                        <figure class="flex justify-center sm:w-[30%] sm:order-2">
+                            <img class="w-[30%] sm:w-[80%]" src="img/New folder/insurance-date.svg" alt="">
+                        </figure>
+                        <div class="flex flex-wrap sm:gap-6 gap-3 sm:w-[67%] sm:order-1">
+                            <h4 class="font-vazirtam">ممکنه تاریخ سررسید بیمه‌ام یادم بره؟
+
+                            </h4>
+                            <p class="text-mainGray text-justify">طبیعیه که با وجود مشغله‌ی روزمره، زمان تمدید رو
+                                فراموش کنی! یکی از فواید خرید از ازکی، یادآوری زمان تمدید بیمه‌ست. اینطوری در صورت
+                                وقوع حادثه، هم از ضرر مالی پیشگیری می‌کنی و هم مجبور به پرداخت جریمه دیرکرد برای
+                                بیمه‌های اجباری نمیشی.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /////////////////////// -->
+            <div class="px-[4%] lg:px-[6%] py-12 custom-bg relative ">
+                <div class="container mx-auto flex flex-wrap gap-10 lg:gap-24 ">
+                    <div class="flex flex-wrap gap-3 *:w-full w-full">
+                        <h2 class="text-[20px] sm:text-[28px] text-center font-vazirtam">
+                            چرا از «ازکی» بخرم؟
+                        </h2>
+                        <p
+                            class="font-vazirtam sm:font-vazirtamlight text-mainGray text-center text-[16px] sm:text-[20px]">
+                            چون ما در ازکی بهت کمک می‌کنیم، مناسب‌ترین بیمه رو انتخاب کنی.
+                        </p>
+                    </div>
+
+                    <div class="flex flex-wrap gap-12  lg:justify-between ">
+                        <div class=" hidden w-[30%] xl:flex right-0 top-0 z-0">
+                            <figure>
+                                <img class="absolute right-0 top-0" src="img/New folder/background.webp" alt="">
+                            </figure>
+                        </div>
+                        <div class="flex flex-wrap *:w-full gap-x-6 gap-y-7 xl:w-[65%] *:lg:w-[48%]">
+                            <div class="flex items-center gap-6">
+                                <figure class="bg-gray-100 w-fit p-3 rounded-[50%]">
+                                    <img class="w-[80px] lg:w-[110px]" src="img/New folder/compare.svg" alt="">
+                                </figure>
+                                <div class="flex flex-wrap *:w-full gap-2.5">
+                                    <h3 class="font-vazirtam text-[14px] sm:text-[18px]">
+                                        مقایسه قیمت و خدمات بیمه‌ها
+                                    </h3>
+                                    <p class="text-[14px] text-gray-500 sm:text-[16px]">با بررسی‌‌ فهرست قیمت و خدمات
+                                        تمام
+                                        شرکت‌ها،
+                                        ‌بیمه‌‌‌ت رو زیرکانه انتخاب کن.</p>
+                                </div>
+
+                            </div>
+                            <div class="flex items-center gap-6">
+                                <figure class="bg-gray-100 w-fit p-3 rounded-[50%]">
+                                    <img class="w-[80px] lg:w-[110px]" src="img/New folder/everywhere-everytime.svg"
+                                        alt="">
+                                </figure>
+                                <div class="flex flex-wrap *:w-full gap-2.5">
+                                    <h3 class="font-vazirtam text-[14px] sm:text-[18px]">
+                                        خرید بیمه؛ هر زمان و هر کجا
+                                    </h3>
+                                    <p class="text-[14px] text-gray-500 sm:text-[16px]">
+                                        بیمه‌‌ موردنیازت رو در ۲۴ ساعت شبانه‌روز و از هر کجا که هستی خریداری کن.
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="flex items-center gap-6">
+                                <figure class="bg-gray-100 w-fit p-3 rounded-[50%]">
+                                    <img class="w-[80px] lg:w-[110px]" src="img/New folder/installment.svg" alt="">
+                                </figure>
+                                <div class="flex flex-wrap *:w-full gap-2.5">
+                                    <h3 class="font-vazirtam text-[14px] sm:text-[18px]">
+                                        امکان خرید قسطی بیمه
+                                    </h3>
+                                    <p class="text-[14px] text-gray-500 sm:text-[16px]">
+                                        بدون چک، ضامن یا سفته با اقساط ۳ تا ۱۱ ماهه (بسته به شرکت بیمه).
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="flex items-center gap-6">
+                                <figure class="bg-gray-100 w-fit p-3 rounded-[50%]">
+                                    <img class="w-[80px] lg:w-[110px]"
+                                        src="img/New folder/central-insurance-company.svg" alt="">
+                                </figure>
+                                <div class="flex flex-wrap *:w-full gap-2.5">
+                                    <h3 class="font-vazirtam text-[14px] sm:text-[18px]">
+                                        تحت نظارت بیمه مرکزی
+                                    </h3>
+                                    <p class="text-[14px] text-gray-500 sm:text-[16px]">
+                                        تمامی فعالیت‌های ما در «ازکی» تحت کنترل و نظارت بیمه مرکزی انجام میشه.
+
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="flex items-center gap-6">
+                                <figure class="bg-gray-100 w-fit p-3 rounded-[50%]">
+                                    <img class="w-[80px] lg:w-[110px]" src="img/New folder/fast-export.svg" alt="">
+                                </figure>
+                                <div class="flex flex-wrap *:w-full gap-2.5">
+                                    <h3 class="font-vazirtam text-[14px] sm:text-[18px]">
+                                        صدور سریع بیمه‌نامه
+                                    </h3>
+                                    <p class="text-[14px] text-gray-500 sm:text-[16px]">
+                                        بیمه‌ای که احتیاج به بازدید نداره، همون روز صادر میشه و قابل استفاده‌ست.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="flex flex-wrap w-2/3 mx-auto gap-10 lg:gap-6 pt-28 lg:pt-10 *:w-full *:lg:w-[45%] justify-center">
+                        <div class="flex lg:justify-end justify-center">
+                            <div class="flex flex-wrap *:w-full gap-y-2.5">
+                                <figure class="flex justify-center">
+                                    <img src="img/New folder/installment-usp.svg" alt="">
+                                </figure>
+                                <p class="font-vazirtam text-[14px] text-center">امکان خرید اقساطی</p>
+                            </div>
+                            <div class="flex flex-wrap *:w-full gap-y-2.5 lg:border-r border-r-gray-300">
+                                <figure class="flex justify-center">
+                                    <img src="img/New folder/compare-usp.svg" alt="">
+                                </figure>
+                                <p class="font-vazirtam text-[14px] text-center">امکان مقایسه بیمه‌ها
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex lg:justify-start justify-center">
+                            <div class="flex flex-wrap *:w-full gap-y-2.5 lg:border-r border-r-gray-300">
+                                <figure class="flex justify-center">
+                                    <img src="img/New folder/support-usp.svg" alt="">
+                                </figure>
+                                <p class="font-vazirtam text-[14px] text-center">پشتیبانی ۲۴ ساعته
+
+                                </p>
+                            </div>
+                            <div class="flex flex-wrap *:w-full gap-y-2.5 lg:border-r border-r-gray-300">
+                                <figure class="flex justify-center">
+                                    <img src="img/New folder/free-shipping-usp.svg" alt="">
+                                </figure>
+                                <p class="font-vazirtam text-[14px] text-center">ارسال رایگان به سراسر ایران
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute hidden lg:flex left-0 top-0">
+                        <figure>
+                            <img src="img/New folder/questions.svg" alt="">
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+            <!-- ////////////////////////// -->
+            <div class="px-[4%] lg:px-[6%] py-12">
+                <div
+                    class="xl:w-[85%] px-12 py-16 flex lg:gap-x-12 flex-wrap lg:items-center lg:flex-nowrap gap-y-8 *:w-full container mx-auto border-2 border-gray-300 rounded-3xl">
+
+                    <figure class="flex justify-center w-full lg:w-[256px] lg:h-[256px]">
+                        <a class="bg-[#2341df] items-center justify-center w-fit flex p-6 rounded-3xl lg:w-[256px] lg:h-[256px]"
+                            href="">
+                            <img class="lg:w-[256px] lg:h-[256px]" src="img/New folder/azkivam-logo.svg" alt="">
+                        </a>
+                    </figure>
+
+                    <div class="flex flex-wrap  *:w-full gap-y-6">
+                        <div class="flex flex-wrap lg:flex-nowrap *:lg:w-fit lg:items-center gap-x-6 *:w-full gap-y-4">
+                            <h3 class="text-[#2341df] font-vazirtam sm:text-3xl text-2xl text-center">از کی وام</h3>
+                            <h5 class="font-vazirtam text-mainGray text-center sm:text-[18px]">پلتفرم مقایسه و انتخاب
+                                طرح‌های اعتباری
+                                مختلف</h5>
+                        </div>
+                        <div>
+                            <p class="text-[14px] sm:text-[16px] py-3">در ازکی وام می‌تونی تا سقف ۱۰۰ میلیون تومان
+                                اعتبار بگیری و
+                                هزینه‌ی محصول موردنظرت رو در
+                                بازه‌های زمانی متعدد پرداخت کنی.</p>
+                            <figure class="flex items-center gap-1.5 py-1.5">
+                                <img src="img/New folder/compare-fancy.svg" alt="">
+                                <figcaption class=" text-[14px] text-[#161616]">مقایسه طرح‌های اعتباری</figcaption>
+                            </figure>
+                            <figure class="flex items-center gap-1.5 py-1.5">
+                                <img src="img/New folder/compare-fancy.svg" alt="">
+                                <figcaption class=" text-[14px] text-[#161616]">فروشگاه‌های معتبر
+
+                                </figcaption>
+                            </figure>
+                            <figure class="flex items-center gap-1.5 py-1.5">
+                                <img src="img/New folder/compare-fancy.svg" alt="">
+                                <figcaption class=" text-[14px] text-[#161616]"> بدون محدودیت در انتخاب
+
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="flex lg:justify-end">
+                            <a class="bg-mainBlue text-white lg:w-1/3 flex  w-full justify-center items-center p-2 rounded-[10px] gap-1.5"
+                                href="">خرید اقساطی<span class="text-2xl icon-[solar--arrow-left-linear]"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ///////////////////// -->
+            <div class="px-[4%] lg:px-[6%] py-12">
+                <div class="container lg:px-10 pb-14 lg:pb-0 mx-auto bg-[#040a1fde] gap-y-6 rounded-3xl flex flex-wrap">
+                    <div class="flex w-full justify-center lg:w-[300px]">
+                        <figure class="flex justify-center lg:w-[300px]">
+                            <img class="mt-[-18%] w-[200px] lg:w-[300px] lg:h-[300px]" src="img/New folder/motamed.webp"
+                                alt="">
+                        </figure>
+                    </div>
+                    <div class="w-full lg:flex-1 lg:py-20 ">
+                        <div class="*:text-center *:font-vazirtam w-full lg:py-5">
+                            <h5 class="text-mainGray text-[17px] sm:text-[21px]">«ازکی» چشم‌اندازی نوین در عرصه سنتی
+                                بیمه</h5>
+                            <h3 class="text-gray-50 text-[22px] sm:text-[30px] py-1.5">دستاوردهای ما در یک نگاه</h3>
+                        </div>
+                        <div class="w-full flex flex-wrap lg:*:w-1/3 *:w-full gap-y-3">
+                            <div class="flex flex-wrap *:w-full *:text-center ">
+                                <span class="text-mainBlue text-[24px] sm:text-[34px]">۲۰+ نوع</span>
+                                <span class="text-gray-50 font-vazirtam text-[16px] sm:text-[20px]">خدمات بیمه</span>
+                            </div>
+                            <div class="flex flex-wrap *:w-full *:text-center border-r-2 border-mainGray">
+                                <span class="text-mainBlue text-[24px] sm:text-[34px]">۷ سال</span>
+                                <span class="text-gray-50 font-vazirtam text-[16px] sm:text-[20px]">سابقه در عرصه
+                                    بیمه</span>
+                            </div>
+                            <div class="flex flex-wrap *:w-full *:text-center border-r-2 border-mainGray">
+                                <span class="text-mainBlue text-[24px] sm:text-[34px]">۴۰۰+ شهر</span>
+                                <span class="text-gray-50 font-vazirtam text-[16px] sm:text-[20px]">تحت پوشش ازکی</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- //////////////// -->
+            <div class="px-[4%] lg:px-[6%] py-12">
+                <div
+                    class="xl:w-[85%]  slider-bg px-12 py-16 flex lg:gap-x-12 flex-wrap lg:items-center lg:flex-nowrap gap-y-8 *:w-full container mx-auto border-2 border-gray-300 rounded-3xl">
+
+                    <figure class="flex justify-center w-full lg:w-[256px] lg:h-[256px]">
+                        <a class="bg-mainBlue items-center justify-center w-fit flex p-6 rounded-3xl lg:w-[256px] lg:h-[256px]"
+                            href="">
+                            <img class="lg:w-[256px] lg:h-[256px]" src="img/New folder/azki-sarmayeh-logo.svg" alt="">
+                        </a>
+                    </figure>
+
+                    <div class="flex flex-wrap  *:w-full gap-y-6">
+                        <div class="flex flex-wrap lg:flex-nowrap *:lg:w-fit lg:items-center gap-x-6 *:w-full gap-y-4">
+                            <h3 class="text-mainBlue font-vazirtam sm:text-3xl text-2xl text-center">از کی سرمایه</h3>
+                            <h5 class="font-vazirtam text-mainGray text-center sm:text-[18px]">
+                                پلتفرم مقایسه و سرمایه‌گذاری در صندوق‌های معتبر
+                            </h5>
+                        </div>
+                        <div>
+                            <p class="text-[14px] sm:text-[16px] py-3"></p>
+                            با ازکی‌سرمایه، می‌تونی روی انواع صندوق‌های سرمایه‌گذاری معتبر بازار پس‌انداز کنی و تا
+                            ۳۰٪ سود روزشمار بگیری.
+                            </p>
+                            <figure class="flex items-center gap-1.5 py-1.5">
+                                <img src="img/New folder/compare-fancy.svg" alt="">
+                                <figcaption class=" text-[14px] text-[#161616]">مقایسه سود و انتخاب صندوق‌های متعدد
+
+                                </figcaption>
+                            </figure>
+                            <figure class="flex items-center gap-1.5 py-1.5">
+                                <img src="img/New folder/compare-fancy.svg" alt="">
+                                <figcaption class=" text-[14px] text-[#161616]">امکان سرمایه‌گذاری بدون نیاز به دانش
+                                    مالی
+
+                                </figcaption>
+                            </figure>
+                            <figure class="flex items-center gap-1.5 py-1.5">
+                                <img src="img/New folder/compare-fancy.svg" alt="">
+                                <figcaption class=" text-[14px] text-[#161616]"> تحت نظارت و مجوز سازمان بورس و اوراق
+                                    بهادار
+
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="flex lg:justify-end">
+                            <a class="bg-mainBlue text-white lg:w-1/3 flex  w-full justify-center items-center p-2 rounded-[10px] gap-1.5"
+                                href="">شروع سرمایه‌گذاری<span
+                                    class="text-2xl icon-[solar--arrow-left-linear]"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ///////////////////////// -->
+            <div class="px-[4%] lg:px-[6%] py-12">
+                <div class="container mx-auto flex flex-wrap *:w-full gap-y-6  p-10 lg:py-10">
+                    <div class="lg:py-16">
+                        <h3 class="text-center text-[20px] sm:text-[28px] lg:text-[32px] font-vazirtam">اگه تصادف کردم،
+                            چیکار کنم؟</h3>
+                        <p class="text-center text-[16px] sm:text-[18px]  font-vazirtam text-gray-500 py-1.5 sm:py-2.5">
+                            در ۵ مرحله ساده درخواست خسارتت رو
+                            ثبت کن.</p>
+                    </div>
+                    <div class="flex sm:w-[70%] lg:w-[85%] mx-auto">
+                        <div class="order-2 lg:order-1 w-2/3 flex flex-wrap *:w-full gap-y-5 sm:gap-y-3 lg:w-[30%]">
+                            <div class="flex flex-wrap *:w-full gap-y-5 sm:gap-y-3 ">
+                                <div>
+                                    <h5 class="text-mainBlue text-[16px] sm:text-[18px]">۱. انتخاب نوع بیمه‌
+                                    </h5>
+                                    <p class="text-[14px] sm:text-[16px] text-mainGray py-3">بعد از تعیین نوع بیمه،
+                                        لازمه مشخص کنی که مقصر حادثه هستی یا زیان‌دیده‌ای.</p>
+                                </div>
+                                <div>
+                                    <h5 class="text-mainBlue text-[16px] sm:text-[18px]">۲. ثبت مشخصات بیمه
+                                    </h5>
+                                    <p class="text-[14px] sm:text-[16px] text-mainGray py-3">مشخصات شرکت بیمه‌گر، مقصر و
+                                        زیا‌ن‌دیده رو ثبت کن و آدرس وقوع حادثه رو جهت بازدید
+                                        بنویس.</p>
+                                </div>
+                                <div>
+                                    <h5 class="text-mainBlue text-[16px] sm:text-[18px]">۳. ورود اطلاعات تکمیلی
+                                    </h5>
+                                    <p class="text-[14px] sm:text-[16px] text-mainGray py-3">نوشتن اطلاعات تکمیلی، به
+                                        کارشناسان کمک می‌کنه تا میزان خسارت رو دقیق‌تر ارزیابی
+                                        کنن.
+
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="flex flex-wrap *:w-full sm:gap-y-3 gap-y-5 lg:hidden">
+                                <div>
+                                    <h5 class="text-mainBlue text-[16px] sm:text-[18px]">۴. ارزیابی کارشناسان
+                                    </h5>
+                                    <p class="text-[14px] sm:text-[16px] text-mainGray py-3">در این مرحله کارشناس بخش
+                                        خسارت ازکی، برای ارزیابی و بازدید از خودرو، باهات تماس
+                                        می‌گیره.
+
+                                    </p>
+                                </div>
+                                <div>
+                                    <h5 class="text-mainBlue text-[16px] sm:text-[18px]">۵. دریافت مبلغ خسارت
+                                    </h5>
+                                    <p class="text-[14px] sm:text-[16px] text-mainGray py-3">در نهایت بعد از محاسبه
+                                        کارشناس و تأیید زیان‌دیده، مبلغ خسارت به صورت آنلاین
+                                        پرداخت
+                                        میشه.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="order-1 w-1/3 flex lg:w-[40%]">
+                            <figure class="flex justify-center w-full ">
+                                <img class="lg:hidden sm:w-[55%] w-[60%]" src="img/New folder/roadmap-claim-mobile.svg"
+                                    alt="">
+                                <img class="hidden lg:flex w-[75%] " src="img/New folder/roadmap-claim.svg" alt="">
+
+                            </figure>
+                        </div>
+                        <div class="hidden lg:w-[30%] lg:order-2  lg:flex flex-wrap *:w-full sm:gap-y-3 gap-y-5 ">
+                            <div>
+                                <h5 class="text-mainBlue text-[16px] sm:text-[18px]">۴. ارزیابی کارشناسان
+                                </h5>
+                                <p class="text-[14px] sm:text-[16px] text-mainGray py-3">در این مرحله کارشناس بخش خسارت
+                                    ازکی، برای ارزیابی و بازدید از خودرو، باهات تماس
+                                    می‌گیره.
+
+                                </p>
+                            </div>
+                            <div>
+                                <h5 class="text-mainBlue text-[16px] sm:text-[18px]">۵. دریافت مبلغ خسارت
+                                </h5>
+                                <p class="text-[14px] sm:text-[16px] text-mainGray py-3">در نهایت بعد از محاسبه کارشناس
+                                    و تأیید زیان‌دیده، مبلغ خسارت به صورت آنلاین
+                                    پرداخت
+                                    میشه.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <a class="bg-mainBlue mt-3 mx-auto lg:w-[15%] w-[80%] flex justify-center items-center rounded-[10px] text-gray-100 p-2"
+                            href="">ثبت خسارت</a>
+                    </div>
+                </div>
+            </div>
+            <!-- ///////////////////// -->
+            <div class="px-[4%] lg:px-[6%] py-12">
+                <div class="container mx-auto">
+                    <div>
+                        <div
+                            class=" relative *:relative lg:gap-12 flex px-8 py-8 xl:px-44 pt-20 pb-40  rounded-3xl after:rounded-3xl *:z-10  slider-bg-2 relative after:content-[''] after:z-0 after:w-full after:h-full after:absolute after:top-0 after:left-0  after:flex after:bg-[#040a1fde]">
+                            <figure class="hidden lg:flex w-[256px] lg:w-[280px]">
+                                <img class="w-full" src="img/New folder/building.webp" alt="">
+                            </figure>
+                            <div class="**:text-gray-50 flex-1 flex flex-wrap gap-y-6">
+                                <h4 class="font-vazirtam text-[22px] w-full">بیمه درمان تکمیلی شرکتی
+                                </h4>
+                                <p class="text-[15px] w-full">با خریدن بیمه درمان تکمیلی شرکتی برای کارکنانتان، رضایت
+                                    آن‌ها را
+                                    بالا ببرید تا نگرانی
+                                    هزینه‌های درمانی خود را نداشته باشند. ازکی با ارائه مشاوره بی‌طرفانه به شما کمک
+                                    می‌کند تا بهترین انتخاب را متناسب با سازمانتان انجام دهید. همچنین در کنار خرید بیمه
+                                    درمان تکمیلی شرکتی از ما از مزایایی مانند دریافت کد تخفیف برای دیگر رشته‌های بیمه‌ای
+                                    از شرکت‌های مختلف بیمه بهره‌مند می‌شوید.
+
+                                </p>
+                                <div
+                                    class="*:text-[14px] w-full flex flex-wrap *:w-full gap-y-4 *:flex *:items-center *:gap-x-3">
+                                    <p><span class="icon-[icon-park-outline--dot]"></span>اپلیکیشن آنلاین برای پرداخت
+                                        خسارت
+                                    </p>
+                                    <p><span class="icon-[icon-park-outline--dot]"></span>جمع آوری مدارک خسارت از محل
+                                        شرکت
+
+                                    </p>
+                                    <p><span class="icon-[icon-park-outline--dot]"></span>ارائه اعتبار خرید کالا از ازکی
+                                        وام
+
+                                    </p>
+                                </div>
+                                <a class="flex text-[14px] ml-auto mr-auto lg:ml-0 rounded-[10px] p-2 justify-center bg-mainBlue w-[40%]"
+                                    href="">ثبت درخواست</a>
+                            </div>
+                        </div>
+                        <div class=" shadow-2xl w-[90%] flex flex-wrap *:w-full mx-auto rounded-2xl bg-white py-4 lg:py-6 mt-[-15%] lg:mt-[-8%] xl:mt-[-5%] 2xl:lg:mt-[-2%] relative z-50">
+                            <h4 class="text-center font-vazirtam lg:text-[18px]">شرکت‌های مخاطب ازکی</h4>
+                            <div class="flex justify-evenly">
+                                <figure class="flex justify-center">
+                                    <img class="w-[80%]" src="img/New folder/New folder/AHK_Logo.svg" alt="">
+                                </figure>
+                                <figure class="flex justify-center">
+                                    <img class="w-[80%]" src="img/New folder/New folder/Danak_Logo.svg" alt="">
+                                </figure>
+                                <figure class="flex justify-center">
+                                    <img class="w-[80%]" src="img/New folder/New folder/GoldIran_Logo.svg" alt="">
+                                </figure>
+                                <figure class="flex justify-center">
+                                    <img class="w-[80%]" src="img/New folder/New folder/Miare_Logo.svg" alt="">
+                                </figure>
+                                <figure class="flex justify-center">
+                                    <img class="w-[80%]" src="img/New folder/New folder/My-Arman_Logo.svg" alt="">
+                                </figure>
+                                <figure class="flex justify-center">
+                                    <img class="w-[80%]" src="img/New folder/New folder/Toranj_Logo.svg" alt="">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- body -->
+        <footer>
+
+        </footer>
+        <!-- footer -->
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+@import "tailwindcss";
+@plugin "@iconify/tailwind4";
+
+@font-face {
+    font-family: "vazirtam";
+    src: url(../font/Vazirmatn-Medium.ttf);
+}
+
+@font-face {
+    font-family: "vazirtamlight";
+    src: url(../font/Vazirmatn-Regular.ttf);
+}
+
+@layer base {
+    body {
+        @apply font-vazirtamlight;
+        font-feature-settings: "ss01";
+
+    }
+}
+
+@theme {
+    --color-mainGray: #707070;
+    --color-mainBlack: #181818;
+    --color-mainBlue: #008FFF
+}
+
+@layer utilities {
+    .gray {
+        color: #707070;
+        background-repeat: no-repeat;
+    }
+
+    .black {
+        color: #181818;
+    }
+
+    .blue {
+        color: #008FFF;
+
+    }
+
+    .custom-bg {
+        background:
+            radial-gradient(39.19% 32.99% at 2.74% 35.4%, rgba(255, 187, 0, .16) 0, rgba(255, 187, 0, 0) 100%),
+            radial-gradient(16.02% 16.02% at 100% 31.65%, rgba(35, 65, 223, .08) 0, rgba(35, 65, 223, 0) 100%),
+            radial-gradient(110.88% 76.94% at 4.48% 58.84%, rgba(0, 143, 255, .16) 0, rgba(0, 143, 255, 0) 53.26%);
+    }
+
+    .slider-bg {
+        background-image: url("../img/New folder/azki-sarmayeh.png");
+        background-repeat: no-repeat;
+    }
+    .slider-bg-2 {
+        background-image: url("../img/New folder/background.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@theme {
+    --font-vazirtamlight: "vazirtamlight";
+    --font-vazirtam: "vazirtam"
+}
